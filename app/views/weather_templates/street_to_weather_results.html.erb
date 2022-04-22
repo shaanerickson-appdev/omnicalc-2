@@ -1,0 +1,19 @@
+<h1>Weather results for <%= @street_address%></h1>
+<dl>
+  <dt>Current Temperature</dt>
+  <dd><%= @temperature %></dd>
+
+  <dt>Current Summary<dt>
+  <dd><%= @summary %></dd>
+
+  <dt>Outlook for next sixty minutes</dt>
+  <dd><%= @hr_outlook %></dd>
+
+  <dt>Outlook for next several hours</dt>
+  <dd><%= @day_outlook %></dd>
+
+  <dt>Outlook for next several days</dt>
+  <dd><%= @week_outlook %></dd>
+</dl>
+
+<a href="./new">Do another coordinate lookup</a>
